@@ -734,6 +734,20 @@ body {
 	margin: 0
 }
 
+.header-menu .container {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	background: -o-linear-gradient(top, rgba(255, 255, 255, .2) 0, rgba(255, 255, 255, 0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .2)), to(rgba(255, 255, 255, 0)));
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, .2) 0, rgba(255, 255, 255, 0) 100%);
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, .2) 0, rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(180deg, rgba(255, 255, 255, .2) 0, rgba(255, 255, 255, 0) 100%);
+	-webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .15);
+	-moz-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .15);
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .15)
+}
+
 .header-menu.scrolled-header:before {
 	content: '';
 	position: absolute;
